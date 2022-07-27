@@ -10,7 +10,7 @@ app.get('/*', (req, resp)=>{
 
 app.listen(process.env.PORT || 8080);
 
-const data = require("./db.js");
+const data = require("./db.json");
 
 const jsonServer = require("json-server");
 const server = jsonServer.create();
